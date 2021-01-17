@@ -1,7 +1,7 @@
 package pl.sda.javalondek4.java_demo.lambda.calculator;
 
 @FunctionalInterface
-public interface Substraction {
+public interface Substraction<T> {
 
-    int sub(int a, int b);
+    T sub(T a, T b);
 }

@@ -5,7 +5,7 @@ public class CalcDemo {
     public static void main(String[] args) {
         System.out.println("playing with calc lambda");
 
-        Adder adder = (a, b) -> a + b;
+        Adder<Integer> adder = (a, b) -> a + b;
 
         StrangeOne strangeOne = (a, b) -> a + b;
 
@@ -15,10 +15,10 @@ public class CalcDemo {
         };
         adder.add(5, 5);
 
-        Substraction substraction = (a, b) -> a - b;
+        Substraction<Integer> substraction = (a, b) -> a - b;
 
-        Multiply multiply = (a, b) -> a * b;
+        Multiply<Integer> multiply = (a, b) -> a * b;
 
-        Division division = (a, b) -> a / b;
+        Division<Integer> division = (a, b) -> a / b;
     }
 }
