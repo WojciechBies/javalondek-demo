@@ -5,4 +5,7 @@ public class RunnerImplementation implements Runner{
     public void go() {
         System.out.println("Dawaj");
     }
+
+    public void walk() {
+    }
 }
