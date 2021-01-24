@@ -19,10 +19,12 @@ public class ComputerUtils {
         if (computer != null) {
             GraphicsCard graphicsCard = computer.getGraphicsCard();
             if (graphicsCard != null) {
-                result = graphicsCard.getModel()
+                result = graphicsCard.getModel();
             }
         }
         return result;
+
+
     }
 
     public static void main(String[] args) {
