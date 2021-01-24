@@ -4,7 +4,16 @@ Git - good practices
 * commit powinien zawierac dobra nazwe
 * zmiana opisu tylko dla ostatniego commita(amend)
 * podrozuj po historii i branchach tylko przy czystym drzewie roboczym
+* usuwanie branchy
+    * zmergowany branch mozna usunac
+    * nie powinnismy usuwac nie zmergowanych branchy
+    * nie usuwamy branch na ktorym aktualnie sie znajdujemy
 * zmergowany branch mozna usunac
+* git flow - w skrocie
+    * master - branch releasowy
+    * develop - branch developerski
+    * feature branch - branch do rozwoju funkcjonalnosci
+    * fetaure branch powinien startowac od developa i do niego finalnie zostac zmergowany
 
 
 Git - przydatne komendy
