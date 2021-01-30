@@ -11,7 +11,6 @@ public class GraphicsCard {
     }
 
     public Optional<String> getModel() {
-
         return Optional.ofNullable(model);
     }
 

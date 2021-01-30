@@ -2,7 +2,7 @@ package pl.sda.javalondek4.java_demo.optional.java7;
 
 public class Computer {
 
-    private  GraphicsCard graphicsCard;
+    private GraphicsCard graphicsCard;
 
     public Computer(GraphicsCard graphicsCard) {
         this.graphicsCard = graphicsCard;
