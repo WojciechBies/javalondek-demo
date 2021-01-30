@@ -26,7 +26,6 @@ public class ComputerUtils {
     public static void main(String[] args) {
 
         Computer withoutGraphicsCard = new Computer(null);
-        Computer withUnknownModel = new pl.sda.javalondek4.java_demo.optional.java8.Computer(new pl.sda.javalondek4.java_demo.optional.java8.GraphicsCard())
         Computer personalComputer = new Computer(new GraphicsCard("nVidia RTX 380"));
 
 

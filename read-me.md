@@ -14,7 +14,9 @@ Git - good practices
     * develop - branch developerski
     * feature branch - branch do rozwoju funkcjonalnosci
     * fetaure branch powinien startowac od developa i do niego finalnie zostac zmergowany
-
+* branch
+    * wlasny branch nie musi byc idealny (moze nie dzialac, moze zawierac FIXME or TODO),
+      ale wyslanie merge requesta z tego brancha MUSI zawierac piekny kod
 
 Git - przydatne komendy
 * git status
